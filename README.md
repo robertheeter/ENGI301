@@ -1,2 +1,2 @@
 # ENGI301
-Repository for ENGI301 course work.
+Fall 2023 ENGI 301 Introduction to Practical Electrical Engineering course at Rice University.
