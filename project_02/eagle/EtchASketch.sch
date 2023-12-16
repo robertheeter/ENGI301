@@ -1813,31 +1813,22 @@ DIN A3, landscape with location and doc. field</description>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GND@4"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="109.22" y1="170.18" x2="121.92" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="GND@2"/>
 <wire x1="109.22" y1="172.72" x2="121.92" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="172.72" x2="121.92" y2="170.18" width="0.1524" layer="91"/>
-<junction x="121.92" y="170.18"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GND@1"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="48.26" y1="114.3" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="USB1.ID"/>
 <wire x1="48.26" y1="116.84" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="116.84" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
-<junction x="38.1" y="114.3"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GND@5"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="48.26" y1="170.18" x2="33.02" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="GND@3"/>
 <wire x1="48.26" y1="172.72" x2="33.02" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="172.72" x2="33.02" y2="170.18" width="0.1524" layer="91"/>
-<junction x="33.02" y="170.18"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -1932,38 +1923,38 @@ DIN A3, landscape with location and doc. field</description>
 </net>
 <net name="LED_BLUE" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO60"/>
-<wire x1="109.22" y1="119.38" x2="127" y2="119.38" width="0.1524" layer="91"/>
-<label x="121.92" y="119.38" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="325.12" y1="114.3" x2="309.88" y2="114.3" width="0.1524" layer="91"/>
 <label x="309.88" y="114.3" size="1.778" layer="95"/>
 <pinref part="D3" gate="G$1" pin="ANODE"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GPIO44"/>
+<wire x1="109.22" y1="137.16" x2="127" y2="137.16" width="0.1524" layer="91"/>
+<label x="121.92" y="137.16" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LED_RED" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO65"/>
-<wire x1="109.22" y1="114.3" x2="127" y2="114.3" width="0.1524" layer="91"/>
-<label x="121.92" y="114.3" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="325.12" y1="149.86" x2="309.88" y2="149.86" width="0.1524" layer="91"/>
 <label x="309.88" y="149.86" size="1.778" layer="95"/>
 <pinref part="D1" gate="G$1" pin="ANODE"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GPIO20"/>
+<wire x1="109.22" y1="142.24" x2="127" y2="142.24" width="0.1524" layer="91"/>
+<label x="121.92" y="142.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LED_GREEN" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO64"/>
-<wire x1="109.22" y1="116.84" x2="127" y2="116.84" width="0.1524" layer="91"/>
-<label x="121.92" y="116.84" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="325.12" y1="132.08" x2="309.88" y2="132.08" width="0.1524" layer="91"/>
 <label x="309.88" y="132.08" size="1.778" layer="95"/>
 <pinref part="D2" gate="G$1" pin="ANODE"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GPIO27"/>
+<wire x1="109.22" y1="139.7" x2="127" y2="139.7" width="0.1524" layer="91"/>
+<label x="121.92" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AGND" class="0">
@@ -2064,11 +2055,6 @@ DIN A3, landscape with location and doc. field</description>
 </net>
 <net name="BUTTON_1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PRU0.1"/>
-<wire x1="109.22" y1="101.6" x2="127" y2="101.6" width="0.1524" layer="91"/>
-<label x="121.92" y="101.6" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="132.08" x2="203.2" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="132.08" x2="193.04" y2="132.08" width="0.1524" layer="91"/>
@@ -2080,6 +2066,11 @@ DIN A3, landscape with location and doc. field</description>
 <label x="193.04" y="142.24" size="1.778" layer="95"/>
 <pinref part="SW1" gate="G$1" pin="1"/>
 <pinref part="SW1" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GPIO46"/>
+<wire x1="109.22" y1="134.62" x2="127" y2="134.62" width="0.1524" layer="91"/>
+<label x="121.92" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BUTTON_2" class="0">
@@ -2097,9 +2088,9 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="SW2" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PRU0.4"/>
-<wire x1="109.22" y1="93.98" x2="127" y2="93.98" width="0.1524" layer="91"/>
-<label x="121.92" y="93.98" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="GPIO47"/>
+<wire x1="109.22" y1="132.08" x2="127" y2="132.08" width="0.1524" layer="91"/>
+<label x="121.92" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DC" class="0">
