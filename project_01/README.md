@@ -1,5 +1,5 @@
 # **TICKER: LED matrix widgets via WiFi with a PocketBeagle**
-- By **[Robert Heeter](https://github.com/rcheeter)**.
+- By **[Robert Heeter](https://github.com/robertheeter)**.
 - Project completed 14 November 2023 for the ENGI 301 Introduction to Practical Electrical Engineering (Fall 2023) course with Professor Erik Welsh at Rice University.
 - Much of the prototyping for this device was done at the Oshman Engineering Design Kitchen at Rice University in Houston, Texas.
 

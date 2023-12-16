@@ -1,0 +1,11 @@
+Designator,Quantity,Manufacturer,Part,Description
+0.1k resistor,1,,,0.1k resistor
+1k resistor,2,,,1k resistor
+USB host,1,TE Connectivity,292303-1,USB-A connector
+LED (red),1,,,Red LED
+LED (green),1,,,Green LED
+LED (blue),1,,,Blue LED
+PocketBeagle,1,Octavo Systems,,PocketBeagle
+Potentiometer,2,,,Knob potentiometer
+Button,2,,,Push button
+SPI screen,1,Adafruit Industries,ILI9341,"2.8"" SPI LCD touchscreen display"
